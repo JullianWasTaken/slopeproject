@@ -85,7 +85,7 @@ let Main = 0
 let yint = 0
 let Slope = 0
 start()
-basic.showString("l")
+basic.showString(":")
 basic.forever(function () {
 	
 })
