@@ -1,6 +1,6 @@
 // Show end calculation (final result of y=mx+b)
 input.onPinPressed(TouchPin.P0, function () {
-    basic.showString("y=" + "" + Slope + "x" + "" + "+" + yint,100)
+    basic.showString("y=" + Slope + "x" + "+" + yint)
 })
 input.onButtonPressed(Button.A, function () {
     if (Main == 0 && MainSecondary == 0) {
@@ -82,8 +82,8 @@ let x2 = 0
 let x1 = 0
 let MainSecondary = 0
 let Main = 0
-let Slope = 0
 let yint = 0
+let Slope = 0
 start()
 basic.showString("l")
 basic.forever(function () {
